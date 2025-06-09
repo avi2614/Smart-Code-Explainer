@@ -39,7 +39,7 @@
     "import gradio as gr\n",
     "import google.generativeai as genai\n",
     "\n",
-    "genai.configure(api_key=\"AIzaSyAOQBR85UtptHJ4RULED-HOs7dnpYFQXGc\")\n",
+    "genai.configure(api_key=\"AIzaSyAOQBR85UtpULED-HOs7dnpYFQXGc\")\n",
     "model = genai.GenerativeModel(\"gemini-1.5-flash\")\n",
     "\n",
     "def explain_code(code_input):\n",
